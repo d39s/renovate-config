@@ -5,15 +5,5 @@
       "username": "docker",
       "password": "8Hn1evemRNyGkebLnxbJmLhD"
     }
-  ],
-  "packageRules": [
-    {
-      "matchDatasources": [
-        "docker-compose"
-      ],
-      "registryUrls": [
-        "docker.d39s.de"
-      ]
-    }
   ]
 }
