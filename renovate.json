@@ -1,0 +1,9 @@
+{
+  "hostRules": [
+    {
+      "matchHost": "docker.d39s.de",
+      "username": "docker",
+      "password": "8Hn1evemRNyGkebLnxbJmLhD"
+    }
+  ]
+}
