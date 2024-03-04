@@ -1,4 +1,5 @@
 {
+  "dependencyDashboard": true,
   "hostRules": [
     {
       "matchHost": "docker.d39s.de",
