@@ -6,5 +6,12 @@
       "username": "docker",
       "password": "8Hn1evemRNyGkebLnxbJmLhD"
     }
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": "astro",
+      "matchUpdateTypes": ["patch"],
+      "enabled": false
+    }
   ]
 }
