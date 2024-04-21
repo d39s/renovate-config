@@ -7,7 +7,14 @@
       "password": "8Hn1evemRNyGkebLnxbJmLhD"
     }
   ],
+  "timezone": "Europe/Berlin",
   "packageRules": [
+    {
+      "matchCategories": ["js", "python"],
+      "schedule": [
+        "* 0-6 * * TUE"
+      ]
+    },
     {
       "matchPackageNames": "astro",
       "matchUpdateTypes": ["patch"],
