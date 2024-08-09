@@ -2,9 +2,12 @@
   "dependencyDashboard": true,
   "hostRules": [
     {
-      "matchHost": "docker.d39s.de",
-      "username": "docker",
-      "password": "8Hn1evemRNyGkebLnxbJmLhD"
+      "hostType": "docker",
+      "matchHost": "harbor.d39s.de",
+      "username": "robot$renovate",
+      "encrypted": {
+        "password": "wcFMA/xDdHCJBTolAQ//ai2gL+++xgkbmqEzDTrj81cqIMmXPBXAZP32e5rkNzrg4vUDa0T5mHTLtOE0Nqr8+buWpr5VVK7EEEIBNvqK8flTJy6WG1OhLcgBUU4jT5v1/3WLjFj3mbDjgg1Ytm3cIcSdtBT2nU8JAekg0bYshHCMEtxm+YvdKLnECYbmWMNW/i+odL2msaH/jKBbxlzJIjIspGxbnaQBtnldgPM7kjUotb5Jlu1y28wT9FVeCpQXIsFiSmzLDIhxMaA86nO/cpMPMzivhwR14yfoG/EopQdmfRFInqoPKR/SuK1W2sbqCMDv1XXYTub+v0QChO9fHNjopIMjPLirv5ZCAIwv1ApYcs5XcdtPo6qPE8EeixJPP17fYENlqCn0DGtKAxqnEEAWTP9hYTiDWTnNBiSJw90tziSmRV2JGlx0zCxIGE1uJJRMYnuYmRvJ1zQl2Qi416mlBP7qWrJ5EZNYHK41aWCg7KpA0yRutd5siQCP3O15mHP7XEidEJEJEjykCIe83erf/8rBvmaMWmvZyzqYBFLato2Y5QZ2bjnakwGIfYIbGErBg9Dn/7F1zbiVJy5HBFM5EBzOLe5zGO3f9SjrPxV/rhw0JYpYsITB5har4e57k9zJ54xdgUZoNQIkyf/nGHo+2dZypemThsKJ4h/losOoY9J/QYJ4s0uGCiPmx23SawHBaSL2I3x7TSl5jku7HJo6XZ+dbKPVwcjbMxsQdIPhK+p+QXwBKxMFjmJWCxYyJwsC8IDl8U2KhsVMTrq0g6UtsuhAZX6D42I2+xLjDGa2TCaLvXI6ydc9ecpHUMJpmoT/tEJ7R8RtPDZe"
+      }
     }
   ],
   "timezone": "Europe/Berlin",
