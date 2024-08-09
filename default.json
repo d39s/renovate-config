@@ -15,7 +15,7 @@
     {
       "matchCategories": ["js", "python"],
       "schedule": [
-        "* 0-6 * * TUE"
+        "before 6am on tuesdays"
       ]
     },
     {
