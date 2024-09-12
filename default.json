@@ -9,9 +9,11 @@
       ]
     },
     {
-      "matchPackageNames": "astro",
+      "matchCategories": ["js"],
       "matchUpdateTypes": ["patch"],
-      "enabled": false
+      "schedule": ["at any time"],
+      "automerge": true,
+      "automergeType": "branch"
     }
   ]
 }
