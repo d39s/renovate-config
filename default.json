@@ -6,7 +6,8 @@
       "matchCategories": ["js", "python"],
       "schedule": [
         "before 6am on tuesdays"
-      ]
+      ],
+      "updateNotScheduled": false
     },
     {
       "description": "automerge minor+patch versions for stable dependencies",
