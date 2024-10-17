@@ -9,8 +9,19 @@
       ]
     },
     {
+      "description": "automerge minor+patch versions for stable dependencies",
       "matchCategories": ["js"],
       "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": ">= 1.0.0",
+      "schedule": ["at any time"],
+      "automerge": true,
+      "automergeType": "branch"
+    },
+    {
+      "description": "automerge patch versions for unstable dependencies",
+      "matchCategories": ["js"],
+      "matchUpdateTypes": ["patch"],
+      "matchCurrentVersion": "< 1.0.0",
       "schedule": ["at any time"],
       "automerge": true,
       "automergeType": "branch"
