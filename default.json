@@ -10,6 +10,11 @@
       "updateNotScheduled": false
     },
     {
+      "description": "Group angular dependencies",
+      "matchPackageNames": ["^@angular/"],
+      "groupName": "angular"
+    },
+    {
       "description": "automerge minor+patch versions for stable dependencies",
       "matchCategories": ["js"],
       "matchUpdateTypes": ["minor", "patch"],
