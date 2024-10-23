@@ -16,7 +16,7 @@
     },
     {
       "description": "automerge minor+patch versions for stable dependencies",
-      "matchCategories": ["js"],
+      "matchCategories": ["js", "python"],
       "matchUpdateTypes": ["minor", "patch"],
       "matchCurrentVersion": ">= 1.0.0",
       "schedule": ["at any time"],
@@ -25,7 +25,7 @@
     },
     {
       "description": "automerge patch versions for unstable dependencies",
-      "matchCategories": ["js"],
+      "matchCategories": ["js", "python"],
       "matchUpdateTypes": ["patch"],
       "matchCurrentVersion": "< 1.0.0",
       "schedule": ["at any time"],
