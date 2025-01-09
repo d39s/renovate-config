@@ -1,5 +1,6 @@
 {
   "dependencyDashboard": true,
+  "prCreation": "not-pending",
   "timezone": "Europe/Berlin",
   "packageRules": [
     {
