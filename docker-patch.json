@@ -22,10 +22,27 @@
       "matchBaseBranches": [
         "!$default"
       ],
+      "matchDepTypes": [
+        "docker"
+      ],
       "matchUpdateTypes": [
         "major"
       ],
       "enabled": false
+    },
+    {
+      "matchBaseBranches": [
+        "$default"
+      ],
+      "matchDepTypes": [
+        "docker"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "automerge": false,
+      "automergeType": "pr",
+      "prCreation": "not-pending"
     }
   ],
   "ignoreTests": true,
