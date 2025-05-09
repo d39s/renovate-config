@@ -7,7 +7,7 @@
   ],
   "packageRules": [
     {
-      "matchDepTypes": [
+      "matchDatasources": [
         "docker"
       ],
       "matchUpdateTypes": [
@@ -22,7 +22,7 @@
       "matchBaseBranches": [
         "/^release-.*/"
       ],
-      "matchDepTypes": [
+      "matchDatasources": [
         "docker"
       ],
       "matchUpdateTypes": [
@@ -34,7 +34,7 @@
       "matchBaseBranches": [
         "$default"
       ],
-      "matchDepTypes": [
+      "matchDatasources": [
         "docker"
       ],
       "matchUpdateTypes": [
