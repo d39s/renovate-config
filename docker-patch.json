@@ -3,7 +3,7 @@
   "dependencyDashboard": true,
   "baseBranches": [
     "$default",
-    "/release-.*/"
+    "/^release-.*/"
   ],
   "packageRules": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "matchBaseBranches": [
-        "/release-.*/"
+        "/^release-.*/"
       ],
       "matchDepTypes": [
         "docker"
