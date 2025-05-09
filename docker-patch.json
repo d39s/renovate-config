@@ -20,7 +20,7 @@
     },
     {
       "matchBaseBranches": [
-        "!$default"
+        "/release-.*/"
       ],
       "matchDepTypes": [
         "docker"
