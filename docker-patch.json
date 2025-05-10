@@ -32,7 +32,7 @@
     },
     {
       "matchBaseBranches": [
-        "$default"
+        "!/^release-.*/"
       ],
       "matchDatasources": [
         "docker"
