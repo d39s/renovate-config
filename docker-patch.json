@@ -45,7 +45,6 @@
       "prCreation": "not-pending"
     }
   ],
-  "ignoreTests": true,
   "prHourlyLimit": 10,
   "prConcurrentLimit": 100
 }
