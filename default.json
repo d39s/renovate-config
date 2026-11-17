@@ -33,6 +33,11 @@
       "schedule": ["at any time"],
       "automerge": true,
       "automergeType": "branch"
+    },
+    {
+      "description": "allow arbitrary major version jumps for jenkins plugins (as jenkins plugins like to do)",
+      "matchDatasources": ["jenkins-plugins"],
+      "maxMajorIncrement": 0
     }
   ]
 }
