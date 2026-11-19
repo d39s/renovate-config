@@ -2,6 +2,7 @@
   "dependencyDashboard": true,
   "prCreation": "not-pending",
   "timezone": "Europe/Berlin",
+  "semanticCommits": "disabled",
   "packageRules": [
     {
       "matchCategories": ["js", "python"],
